@@ -3,22 +3,61 @@ description: A Demo of the League Curriculum websites
 title: League Demo
 tagline: Igniting Young Minds Through Programming
 pages:
-  - index.md
-  - about.md
+- index.md
+- about.md
 resources:
-  - flag.png
-  - word-logo.png
+- flag.png
+- word-logo.png
 sidebar:
-  - path: /
-    title: Introduction
+- path: /
+  title: Introduction
 lessons:
-  
-  lesson1:
-    title: Getting Started # neet a title b/c there is no index.md
+  Module0:
+    title: Module0
     assignments:
-     - lesson1/assignment_a.md
-  lesson2:
-    # title: No Title # Don't need title, has index.md
+    - Module0/01_demo
+    - Module0/02_code_flow
+    - Module0/03_print_and_popups
+    - Module0/04_amazing_games
+    - Module0/99_extra
+  Module1:
+    title: Module1
     assignments:
-    - lesson2/assignment_b.md
-
+    - Module1/01_variables
+    - Module1/02_colors
+    - Module1/03_if_else
+    - Module1/04_int
+    - Module1/05_for_loops
+    - Module1/06_spot_the_error
+  Module2:
+    title: Module2
+    assignments:
+    - Module2/01_random
+    - Module2/02_methods
+    - Module2/03_string_conversion
+    - Module2/04_spot_the_error
+    - Module2/99_extra
+  Module3:
+    title: Module3
+    assignments:
+    - Module3/01_else_if
+    - Module3/02_loop_variables
+    - Module3/03_remainder
+    - Module3/99_extra
+  Module4:
+    title: Module4
+    assignments:
+    - Module4/01_double
+    - Module4/02_boolean
+    - Module4/03_char
+    - Module4/04_variables_check
+    - Module4/99_extra
+  Module5:
+    title: Module5
+    assignments:
+    - Module5/01_algorithms
+    - Module5/02_nested_loops
+    - Module5/03_method_writing
+    - Module5/04_practice
+    - Module5/05_self_tests
+    - Module5/99_extra

@@ -1,4 +1,4 @@
-base: /New_Curriculum_Template/
+base: /Level0/
 description: A Demo of the League Curriculum websites
 head:
 - - meta
@@ -18,7 +18,7 @@ plugins:
 - '@vuepress/plugin-back-to-top'
 - '@vuepress/plugin-medium-zoom'
 themeConfig:
-  displayAllHeaders: true
+  displayAllHeaders: false
   docsDir: ''
   editLinkText: ''
   editLinks: false
@@ -34,14 +34,83 @@ themeConfig:
   - path: /
     title: Introduction
   - children:
-    - path: /lessons/lesson1/assignment_a/
-      title: Assignment A
+    - path: /lessons/Module0/01_demo/
+      title: 01 Demo
+    - path: /lessons/Module0/02_code_flow/
+      title: 02 Code Flow 1 Robot Square
+    - path: /lessons/Module0/03_print_and_popups/
+      title: 03 Print And Popups 1 Greeter
+    - path: /lessons/Module0/04_amazing_games/
+      title: 04 Amazing Games 1 Scary Maze
+    - path: /lessons/Module0/99_extra/
+      title: 99 Extra
     collapsable: false
-    title: Getting Started
+    title: Module0
   - children:
-    - path: /lessons/lesson2/assignment_b/
-      title: Assignment B
+    - path: /lessons/Module1/01_variables/
+      title: 01 Variables
+    - path: /lessons/Module1/02_colors/
+      title: 02 Colors Venndiagram
+    - path: /lessons/Module1/03_if_else/
+      title: 03 If Else 1 Unbirthday
+    - path: /lessons/Module1/04_int/
+      title: 04 Int 1 Riddler
+    - path: /lessons/Module1/05_for_loops/
+      title: 05 For Loops 1 My Ages
+    - path: /lessons/Module1/06_spot_the_error/
+      title: 06 Spot The Error
     collapsable: false
-    path: /lessons/lesson2/
-    title: Lesson 2
+    title: Module1
+  - children:
+    - path: /lessons/Module2/01_random/
+      title: 01 Random 1 Intro To Random
+    - path: /lessons/Module2/02_methods/
+      title: 02 Methods 1 Animal Farm
+    - path: /lessons/Module2/03_string_conversion/
+      title: 03 String Conversion 1 Intro
+    - path: /lessons/Module2/04_spot_the_error/
+      title: 04 Spot The Error
+    - path: /lessons/Module2/99_extra/
+      title: 99 Extra
+    collapsable: false
+    title: Module2
+  - children:
+    - path: /lessons/Module3/01_else_if/
+      title: 01 Else If 1 Robot Color Chooser
+    - path: /lessons/Module3/02_loop_variables/
+      title: 02 Loop Variables 1 Years Alive
+    - path: /lessons/Module3/03_remainder/
+      title: 03 Remainder 1 Intro To Remainder
+    - path: /lessons/Module3/99_extra/
+      title: 99 Extra
+    collapsable: false
+    title: Module3
+  - children:
+    - path: /lessons/Module4/01_double/
+      title: 01 Double 1 Change Calculator
+    - path: /lessons/Module4/02_boolean/
+      title: 02 Boolean 1 Sleepy Head
+    - path: /lessons/Module4/03_char/
+      title: 03 Char 2 String Methods
+    - path: /lessons/Module4/04_variables_check/
+      title: 04 Variables Check
+    - path: /lessons/Module4/99_extra/
+      title: 99 Extra
+    collapsable: false
+    title: Module4
+  - children:
+    - path: /lessons/Module5/01_algorithms/
+      title: 01 Algorithms 1 Prime Or Not
+    - path: /lessons/Module5/02_nested_loops/
+      title: 02 Nested Loops 1 Snowflake
+    - path: /lessons/Module5/03_method_writing/
+      title: 03 Method Writing 1 Intro To Methods
+    - path: /lessons/Module5/04_practice/
+      title: 04 Practice 1 Skill Practice
+    - path: /lessons/Module5/05_self_tests/
+      title: 05 Self Tests 1 Which Data Type 1
+    - path: /lessons/Module5/99_extra/
+      title: 99 Extra
+    collapsable: false
+    title: Module5
 title: League Demo
